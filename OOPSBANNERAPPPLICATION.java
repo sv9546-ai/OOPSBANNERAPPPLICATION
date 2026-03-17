@@ -2,12 +2,9 @@ public class OOPSBANNERAPPPLICATION {
 
     public static void main(String[] args) {
 
-        System.out.println(" *****   *****   *****   ***** ");
-        System.out.println("*     * *     * *     * *     *");
-        System.out.println("*     * *     * *     * *      ");
-        System.out.println("*     * *     * ******  ***** ");
-        System.out.println("*     * *     * *             *");
-        System.out.println("*     * *     * *       *     *");
-        System.out.println(" *****   *****  *        ***** ");
+        String line1 = String.join(" ",
+        "*****", "*****", "*****", "*****");
+
+System.out.println(line1);
     }
 }
