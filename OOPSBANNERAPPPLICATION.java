@@ -2,9 +2,19 @@ public class OOPSBANNERAPPPLICATION {
 
     public static void main(String[] args) {
 
-        String line1 = String.join(" ",
-        "*****", "*****", "*****", "*****");
+        String[] banner = {
+                " *****   *****   *****   ***** ",
+                "*     * *     * *     * *     *",
+                "*     * *     * *     * *      ",
+                "*     * *     * *******  ***** ",
+                "*     * *     * *             *",
+                "*     * *     * *       *     *",
+                " *****   *****  *        ***** "
+        };
 
-System.out.println(line1);
+        for (String line : banner) {
+            System.out.println(line);
+        }
+
     }
 }
